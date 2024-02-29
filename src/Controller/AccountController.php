@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\Routing\Attribute\Route;
+
+class AccountController extends AbstractController
+{
+    #[Route('/account', name: 'app_account')]
+    public function index(): Response
+    {
+
+        return $this->render('account/index.html.twig', [
+            'controller_name' => 'AccountController',
+        ]);
+    }
+
+    #[Route('/account/settings', name: 'account_settings')]
+    public function settings(): Response {
+        return $this->render('account/index.html.twig', []);
+    }
+}
