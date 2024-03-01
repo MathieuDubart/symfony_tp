@@ -55,4 +55,11 @@ BasicHttp
 > Pour envoyer un email, résoudre une route, ou même accéder à la base de donnée, des objets qui remplissent des petites tâches, mais bien découpées
 
 Avez-vous déjà utilisé un service?
->oui
+> oui, entityManager
+
+À quoi sert le validateur ?
+> Validation is a very common task in web applications. Data entered in forms needs to be validated. Data also needs to be validated before it is written into a database or passed to a web service.
+
+Dans quel contexte peut-on valider des données ?
+> Lors d'utilisations de forms par exemple.
+
